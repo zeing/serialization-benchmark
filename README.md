@@ -10,6 +10,7 @@ A performance benchmark comparing different serialization libraries in Node.js:
 
 This benchmark tests the speed and efficiency of **packing (serialization)** and **unpacking (deserialization)** to evaluate which library performs best under various conditions.
 
+### Install
 To install dependencies:
 
 ```bash
@@ -19,7 +20,7 @@ bun install
 To run:
 
 ```bash
-bun run index.ts
+bun run benchmark.ts
 ```
 
 ### Result:
